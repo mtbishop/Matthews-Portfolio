@@ -1,0 +1,13 @@
+#matthewBishop {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 425px) {
+  #matthewBishop {
+    margin-bottom: 9rem;
+    margin-top: -1rem;
+  }
+}

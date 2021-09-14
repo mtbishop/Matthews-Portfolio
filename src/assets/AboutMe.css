@@ -1,0 +1,102 @@
+.bg-info {
+  background-color: #611319 !important;
+}
+.bg-secondary {
+  background-color: #333333 !important;
+}
+
+body {
+  background-color: #333333;
+}
+#resume {
+  margin-left: 1rem;
+}
+
+.btn {
+  color: white !important;
+  background-color: #283593;
+}
+
+.btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid #283593;
+}
+
+#aboutMeBody {
+  align-content: center;
+  padding-left: 2.5rem;
+  padding-top: 47px;
+}
+
+#aboutMeBody section {
+  font-size: 24px;
+}
+
+#aboutMe {
+  font-family: 'Monoton', cursive;
+}
+
+@media (max-width: 768px) {
+  #aboutMe {
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+  #selfImage {
+    margin-left: 4.9rem;
+  }
+  #aboutMeHeader {
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  #selfImage {
+    margin-left: -0.4rem;
+  }
+  #aboutMeIntro {
+    font-size: 5px;
+  }
+  #aboutMe {
+    margin-top: -1rem;
+  }
+  #aboutMeBody {
+    margin-right: 1rem;
+  }
+  #resumePreText a {
+    margin: 1rem;
+  }
+  #contactButton {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #selfImage {
+    height: 200px;
+    width: 250px;
+    margin-right: -5rem;
+  }
+  #aboutMe {
+    font-size: 25px;
+  }
+  #aboutMeIntro {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  #selfImage {
+    height: 175px;
+    width: 250px;
+  }
+  #aboutMe {
+    font-size: 25px;
+  }
+  #aboutMeIntro {
+    font-size: 10px;
+  }
+}

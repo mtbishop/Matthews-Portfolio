@@ -1,0 +1,88 @@
+.bg-info {
+  background-color: #611319 !important;
+}
+.bg-secondary {
+  background-color: #333333 !important;
+}
+#btn2 {
+  margin-top: 5.4rem;
+  background-color: #283593;
+  color: white;
+}
+#btn2:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #283593;
+}
+#btn3 {
+  margin-top: 0.5rem;
+  background-color: #283593;
+  color: white;
+}
+#btn3:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #283593;
+}
+.projects {
+  text-align: center;
+  margin-right: 1rem;
+}
+.btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #283593;
+}
+
+.projectCard {
+  width: 60rem;
+}
+
+.btn {
+  background-color: #283593;
+  color: white;
+}
+
+#projectsBody {
+  align-content: center;
+}
+
+#projectsHeader {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
+#passGenerator:hover h6 {
+  color: white;
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  #projectsBody {
+    margin-left: 7rem;
+  }
+  #projectsHeader {
+    margin-right: 7rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #projectsBody {
+    padding-left: 4rem;
+  }
+  #projectsHeader {
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  #projectsBody {
+    margin-left: 5rem;
+  }
+  #projectsHeader {
+    margin-right: 4rem;
+  }
+}

@@ -1,0 +1,13 @@
+#projectsButton {
+  color: white;
+  background-color: #283593;
+  margin-right: 2rem;
+}
+#projectsButton:hover {
+  color: black;
+}
+
+.projectCard {
+  border: dashed white 5px;
+  padding: 1px;
+}
