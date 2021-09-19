@@ -8,6 +8,11 @@
 }
 
 .projectCard {
-  border: dashed white 5px;
   padding: 1px;
+}
+
+@media (max-width: 768px) {
+  .projectCard {
+    size: 250px 500px;
+  }
 }

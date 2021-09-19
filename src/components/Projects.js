@@ -17,7 +17,12 @@ function Projects() {
             <div className="row projectCard">
               <div className="col-md-12">
                 <div className="card m-3">
-                  <img src={Dogtionary} className="card-img-top" alt="..." />
+                  <img
+                    src={Dogtionary}
+                    id="projImage"
+                    className="card-img-top"
+                    alt="..."
+                  />
                   <div className="card-body">
                     <h5 className="card-title">Dogtionary</h5>
                     <p className="card-text">
@@ -54,6 +59,7 @@ function Projects() {
                 <div className="card m-3">
                   <img
                     src={BurgerApp}
+                    id="projImage"
                     className="card-img-top"
                     alt="burger-app-demo"
                   />
@@ -92,6 +98,7 @@ function Projects() {
                 <div className="card m-3">
                   <img
                     src={CodingQuiz}
+                    id="projImage"
                     className="card-img-top"
                     alt="coding-quiz-demo"
                   />
@@ -129,6 +136,7 @@ function Projects() {
                 <div id="passGenerator" className="card m-3">
                   <img
                     src={PasswordGenerator}
+                    id="projImage"
                     className="card-img-top"
                     alt="password-generator-demo"
                   />
