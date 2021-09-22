@@ -1,28 +1,33 @@
+/* 
+BLUE :  283593
+RED  :  611319   
+*/
+
 .bg-info {
-  background-color: #611319 !important;
+  background-color: #283593 !important;
 }
 .bg-secondary {
   background-color: #333333 !important;
 }
 #btn2 {
   margin-top: 5.4rem;
-  background-color: #283593;
+  background-color: #611319;
   color: white;
 }
 #btn2:hover {
   background-color: transparent;
   color: black;
-  border: 2px solid #283593;
+  border: 2px solid #611319;
 }
 #btn3 {
   margin-top: 0.5rem;
-  background-color: #283593;
+  background-color: #611319;
   color: white;
 }
 #btn3:hover {
   background-color: transparent;
   color: black;
-  border: 2px solid #283593;
+  border: 2px solid #611319;
 }
 .projects {
   text-align: center;
@@ -31,7 +36,7 @@
 .btn:hover {
   background-color: transparent;
   color: black;
-  border: 2px solid #283593;
+  border: 2px solid #611319;
 }
 
 .projectCard {
@@ -39,7 +44,7 @@
 }
 
 .btn {
-  background-color: #283593;
+  background-color: #611319;
   color: white;
 }
 

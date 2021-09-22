@@ -4,7 +4,7 @@
   border: 2px solid Black;
   padding: 0.23rem 0.23rem 0.23rem 0.23rem;
   margin: -17.3rem 0.3rem -3.7rem 0.3rem;
-  background: rgb(0, 38, 82);
+  background: #611319;
   overflow: visible;
   position: relative;
 }
@@ -19,7 +19,7 @@
 
 #contactButton {
   margin-top: 1rem;
-  background-color: #283593;
+  background-color: #611319;
   color: white;
   padding: -1px;
   width: 138px;
