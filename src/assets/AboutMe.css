@@ -58,8 +58,8 @@ body {
   #selfImage {
     margin-left: -0.4rem;
   }
-  #aboutMeIntro {
-    font-size: 5px;
+  #aboutMeBody section {
+    font-size: 14px;
   }
   #aboutMe {
     margin-top: -1rem;

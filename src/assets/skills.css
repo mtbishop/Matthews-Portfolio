@@ -18,3 +18,11 @@
 .jumbotron {
   padding: 0.5rem 2rem;
 }
+
+@media (max-width: 425px) {
+  #skillsHeader {
+    font-size: 61px;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}

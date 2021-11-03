@@ -142,9 +142,6 @@ function Projects() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Random Password Generator</h5>
-                    <h6 id="construction" className="card-title">
-                      (under construction)
-                    </h6>
                     <p className="card-text">
                       This is my first JavaScript project that I made in my
                       coding bootcamp. You select the length of the password and

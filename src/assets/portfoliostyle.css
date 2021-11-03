@@ -62,6 +62,25 @@ RED  :  611319
   font-weight: bolder;
 }
 
+@media (max-width: 425px) {
+  #projectsHeader {
+    font-size: 54px;
+    margin: 0% 0% 0% -100%;
+  }
+  .projectCard {
+    width: 26rem;
+    margin: -33% 0% 33% -93%;
+  }
+  #projectsButton {
+    padding: 0% 5% 0% 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  #projectsBody {
+    margin: 4% 0% 0% 0%;
+  }
+}
+
 @media (max-width: 768px) {
   #projectsBody {
     margin-left: 7rem;
