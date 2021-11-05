@@ -131,7 +131,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="row projectCard">
+            {/* <div className="row projectCard">
               <div className="col-md-12">
                 <div id="passGenerator" className="card m-3">
                   <img
@@ -169,7 +169,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

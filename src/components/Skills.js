@@ -20,36 +20,45 @@ function Skills() {
                   <p title="CSS3" className="devicon-css3-plain"></p>
                 </Col>
                 <Col>
-                  <p title="SASS" class="devicon-sass-original"></p>
+                  <p title="SASS" className="devicon-sass-original"></p>
                 </Col>
                 <Col>
-                  <p title="JavaScript" class="devicon-javascript-plain"></p>
+                  <p
+                    title="JavaScript"
+                    className="devicon-javascript-plain"
+                  ></p>
                 </Col>
                 <Col>
-                  <p title="jQuery" class="devicon-jquery-plain"></p>
+                  <p title="jQuery" className="devicon-jquery-plain"></p>
                 </Col>
                 <Col>
-                  <p title="React" class="devicon-react-original"></p>
+                  <p title="React" className="devicon-react-original"></p>
+                </Col>
+                <Col>
+                  <p title="Python" className="devicon-python-plain"></p>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <p title="Vue.js" class="devicon-vuejs-plain"></p>
+                  <p title="Vue.js" className="devicon-vuejs-plain"></p>
                 </Col>
                 <Col>
-                  <p title="Node.js" class="devicon-nodejs-plain"></p>
+                  <p title="Node.js" className="devicon-nodejs-plain"></p>
                 </Col>
                 <Col>
-                  <p title="Express" class="devicon-express-original"></p>
+                  <p title="Express" className="devicon-express-original"></p>
                 </Col>
                 <Col>
-                  <p title="mySQL" class="devicon-mysql-plain"></p>
+                  <p title="mySQL" className="devicon-mysql-plain"></p>
                 </Col>
                 <Col>
-                  <p title="MongoDB" class="devicon-mongodb-plain"></p>
+                  <p title="MongoDB" className="devicon-mongodb-plain"></p>
                 </Col>
                 <Col>
-                  <p title="Git" class="devicon-git-plain"></p>
+                  <p title="PhP" className="devicon-php-plain"></p>
+                </Col>
+                <Col>
+                  <p title="Git" className="devicon-git-plain"></p>
                 </Col>
               </Row>
             </div>
