@@ -37,6 +37,9 @@ function Skills() {
                 <Col>
                   <p title="Python" className="devicon-python-plain"></p>
                 </Col>
+                <Col>
+                  <p title="WordPress" className="devicon-wordpress-plain"></p>
+                </Col>
               </Row>
               <Row>
                 <Col>
@@ -59,6 +62,9 @@ function Skills() {
                 </Col>
                 <Col>
                   <p title="Git" className="devicon-git-plain"></p>
+                </Col>
+                <Col>
+                  <p title="npm" className="devicon-npm-original-wordmark"></p>
                 </Col>
               </Row>
             </div>
