@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import '../assets/skills.css';
+import '../assets/Skills.css';
 
 function Skills() {
   return (

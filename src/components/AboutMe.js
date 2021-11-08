@@ -38,7 +38,6 @@ function AboutMe() {
               </section>
               <Modal />
               <p id="resumePreText">
-                Learn more about my professional history
                 <span>
                   <a
                     id="resume"
@@ -47,7 +46,7 @@ function AboutMe() {
                     href="https://docs.google.com/document/d/1YeQ09hVz4KmRDTZ6hHcPA4l7eQIcgKygkbW03KcPj5M/edit?usp=sharing"
                     target="_blank"
                   >
-                    here
+                    Learn more about my professional history
                   </a>
                 </span>
               </p>

@@ -4,7 +4,7 @@
   border: 2px solid Black;
   padding: 0.23rem 0.23rem 0.23rem 0.23rem;
   margin: -17.3rem 0.3rem -3.7rem 0.3rem;
-  background: #611319;
+  background: white;
   overflow: visible;
   position: relative;
 }
@@ -19,8 +19,10 @@
 
 #contactButton {
   margin-top: 1rem;
-  background-color: #611319;
+  margin-left: 40%;
+  background-color: transparent;
   color: white;
+  font-size: 16px;
   padding: -1px;
   width: 138px;
   height: 67px;
@@ -39,7 +41,7 @@
 }
 
 #modalBody {
-  background-color: #333333;
+  background-color: #042659;
 }
 
 .close-container {

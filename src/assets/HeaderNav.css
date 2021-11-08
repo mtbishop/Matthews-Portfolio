@@ -1,0 +1,31 @@
+#matthewBishop {
+  font-size: 40px;
+  padding-top: 48px;
+}
+
+#FSWD {
+  font-size: 24px;
+  padding-top: 89px;
+}
+
+nav.navbar {
+  padding-bottom: 60px;
+}
+
+ul.navList {
+  margin-left: 41%;
+}
+
+@media (max-width: 425px) {
+  #matthewBishop {
+    margin-top: -1rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #matthewBishop {
+    margin-top: 1rem;
+    padding-left: 16rem;
+  }
+}

@@ -1,13 +1,16 @@
 /* 
 BLUE :  283593
 RED  :  611319   
+Jacket Color1: 085492
+Jacket Color2: 042659
+
 */
 
 .bg-info {
-  background-color: #283593 !important;
+  background-color: #085492 !important;
 }
 .bg-secondary {
-  background-color: #333333 !important;
+  background-color: #042659 !important;
 }
 #btn2 {
   margin-top: 5.4rem;
@@ -36,7 +39,7 @@ RED  :  611319
 .btn:hover {
   background-color: transparent;
   color: black;
-  border: 2px solid #611319;
+  border: 2px solid #042659;
 }
 
 .projectCard {
@@ -44,7 +47,8 @@ RED  :  611319
 }
 
 .btn {
-  background-color: #611319;
+  background-color: transparent;
+  border: solid 1px white;
   color: white;
 }
 
