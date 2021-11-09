@@ -19,6 +19,12 @@
   padding: 0.5rem 2rem;
 }
 
+@media (max-width: 1440px) {
+  #skillIcons {
+    font-size: 93px;
+  }
+}
+
 @media (max-width: 425px) {
   #skillsHeader {
     font-size: 61px;

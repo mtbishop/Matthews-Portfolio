@@ -11,6 +11,12 @@
   padding: 1px;
 }
 
+@media (max-width: 1440px) {
+  .projectCard {
+    margin-left: -59px;
+  }
+}
+
 @media (max-width: 768px) {
   .projectCard {
     size: 250px 500px;
