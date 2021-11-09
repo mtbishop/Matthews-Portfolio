@@ -86,12 +86,8 @@ Jacket Color2: 042659
 }
 
 @media (max-width: 768px) {
-  #projectsBody {
-    margin-left: 7rem;
-  }
-  #projectsHeader {
-    margin-right: 7rem;
-    margin-bottom: 5rem;
+  div.jumbotron {
+    margin-right: -195px !important;
   }
 }
 
