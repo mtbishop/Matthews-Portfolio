@@ -99,3 +99,12 @@
     padding: 20% 6% 6% 0%;
   }
 }
+
+@media (max-width: 1024px) {
+  #contactButton {
+    margin-left: 35%;
+  }
+  #resume {
+    margin-left: 130px;
+  }
+}

@@ -104,6 +104,9 @@ Jacket Color2: 042659
     margin-bottom: 5rem;
     padding-right: 4rem;
   }
+  div.jumbotron {
+    margin-right: -123px;
+  }
 }
 
 @media (max-width: 1440px) {

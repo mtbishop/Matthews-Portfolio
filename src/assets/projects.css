@@ -17,6 +17,13 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .projectCard {
+    margin-left: -151px;
+    width: 800px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .projectCard {
     size: 250px 500px;

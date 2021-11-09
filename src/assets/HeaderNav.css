@@ -16,10 +16,12 @@ ul.navList {
   margin-left: 41%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
+  .navbar {
+    width: 1135px;
+  }
   #matthewBishop {
-    margin-top: -1rem;
-    padding-left: 4rem;
+    margin-left: -70px !important;
   }
 }
 
@@ -27,5 +29,12 @@ ul.navList {
   #matthewBishop {
     margin-top: 1rem;
     padding-left: 16rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #matthewBishop {
+    margin-top: -1rem;
+    padding-left: 4rem;
   }
 }
