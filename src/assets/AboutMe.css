@@ -37,10 +37,33 @@ body {
 #aboutMe {
   font-family: 'Monoton', cursive;
 }
+@media (max-width: 1024px) {
+  #contactButton {
+    margin-left: 35%;
+  }
+  #resume {
+    margin-left: 161px;
+  }
+}
 
 @media (max-width: 768px) {
   #aboutMe {
-    padding-top: 0px;
+    margin-left: 104px;
+    padding-top: 222px;
+  }
+  #aboutMeIntro {
+    font-size: 17px !important;
+    margin-top: -27px;
+  }
+  #selfImage {
+    size: 500px 500px;
+    margin-left: 76px;
+  }
+  #contactButton {
+    margin-left: 177px !important;
+  }
+  #resume {
+    margin-left: 73px;
   }
 }
 

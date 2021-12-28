@@ -27,11 +27,11 @@ ul.navList {
 
 @media (max-width: 768px) {
   .navbar {
-    width: 966px;
+    width: 768px;
   }
   #matthewBishop {
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-right: 2px;
   }
 }
 

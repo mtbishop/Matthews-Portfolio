@@ -26,13 +26,14 @@
 
 @media (max-width: 768px) {
   .projectCard {
-    width: 737px !important;
+    width: 600px !important;
     margin-right: 1px;
   }
   #projectsBody {
-    margin-left: 8rem !important;
+    margin-left: 90px !important;
   }
   #projectsHeader {
-    padding-right: 9rem !important;
+    margin-left: -44px !important;
+    margin-bottom: 1rem !important;
   }
 }

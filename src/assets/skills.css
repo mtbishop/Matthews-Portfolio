@@ -30,9 +30,17 @@
     font-size: 79px;
     margin-left: 234px;
   }
-
   #skillIcons {
     font-size: 73px;
+  }
+}
+
+@media (max-width: 768px) {
+  #skillsHeader {
+    margin-left: 154px;
+  }
+  #skillIcons {
+    font-size: 97px;
   }
 }
 
