@@ -80,13 +80,14 @@ body {
 }
 @media (max-width: 425px) {
   #selfImage {
-    margin-left: -0.4rem;
+    margin-left: 6.6rem;
   }
   #aboutMeBody section {
     font-size: 14px;
   }
   #aboutMe {
-    margin-top: -1rem;
+    margin-top: 3rem;
+    margin-right: 91px;
   }
   #aboutMeBody {
     margin-right: 1rem;
@@ -95,6 +96,7 @@ body {
     margin: 1rem;
   }
   #contactButton {
+    margin-right: 163px;
     margin-bottom: 1rem;
   }
 }

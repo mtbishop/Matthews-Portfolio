@@ -7,8 +7,13 @@
   color: black;
 }
 
-.projectCard {
-  padding: 1px;
+#projectsHeader {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
+#projectsBody {
+  align-content: center;
 }
 
 @media (max-width: 1440px) {
@@ -33,7 +38,27 @@
     margin-left: 90px !important;
   }
   #projectsHeader {
-    margin-left: -44px !important;
-    margin-bottom: 1rem !important;
+    margin-left: -44px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #projectsHeader {
+    font-size: 54px;
+    padding-bottom: 81px !important;
+    margin-top: -176px;
+  }
+  .projectCard {
+    width: 26rem;
+    margin: -33% 0% 33% -35%;
+  }
+  #projectsButton {
+    padding: 0% 5% 0% 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  #projectsBody {
+    margin: 38% 0% 0% 0%;
   }
 }

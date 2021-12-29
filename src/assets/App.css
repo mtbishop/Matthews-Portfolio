@@ -4,3 +4,8 @@
 body {
   background-color: #042659 !important;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+}

@@ -37,7 +37,6 @@ ul.navList {
 
 @media (max-width: 425px) {
   #matthewBishop {
-    margin-top: -1rem;
-    padding-left: 4rem;
+    margin-top: -3.5rem;
   }
 }
