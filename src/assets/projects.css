@@ -20,6 +20,12 @@
   .projectCard {
     margin-left: -59px;
   }
+  #projectsBody {
+    margin-left: 5rem;
+  }
+  #projectsHeader {
+    margin-right: 4rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -27,9 +33,24 @@
     margin-left: -151px;
     width: 800px !important;
   }
+  #projectsBody {
+    padding-left: 4rem;
+  }
+  #projectsHeader {
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    padding-right: 4rem;
+  }
+  div.jumbotron {
+    margin-right: -123px;
+  }
 }
 
 @media (max-width: 768px) {
+  div.jumbotron {
+    margin-right: -195px !important;
+    width: 644px;
+  }
   .projectCard {
     width: 600px !important;
     margin-right: 1px;
