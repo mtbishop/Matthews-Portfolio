@@ -4,7 +4,7 @@ import GHLogo from '../assets/Images/GH logo.png';
 import LILogo from '../assets/Images/LI logo.png';
 import M from 'materialize-css';
 import 'materialize-css/dist/css/materialize.min.css';
-import '../assets/ContactModal.css';
+import './ContactModal.css';
 
 class Modal extends Component {
   componentDidMount() {

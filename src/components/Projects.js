@@ -1,5 +1,5 @@
-import '../assets/Projects.css';
-import '../assets/portfoliostyle.css';
+import './Projects.css';
+import './portfoliostyle.css';
 import Dogtionary from '../assets/Images/Dogtionary Demo.png';
 import CodingQuiz from '../assets/Images/Coding Quiz Demo.PNG';
 import BurgerApp from '../assets/Images/BurgerApp Demo.png';

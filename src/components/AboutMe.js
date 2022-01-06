@@ -1,4 +1,4 @@
-import '../assets/AboutMe.css';
+import './AboutMe.css';
 import Modal from './ContactModal';
 import NonCrossed from '../assets/Images/non crossed.jpg';
 

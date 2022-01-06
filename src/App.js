@@ -1,11 +1,13 @@
-import './assets/App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MainComp from './components/MainComp'
+import MainComp from './components/MainComp';
 
 function App() {
-  return <div>
-    <MainComp />
-  </div>;
+  return (
+    <div>
+      <MainComp />
+    </div>
+  );
 }
 
 export default App;
