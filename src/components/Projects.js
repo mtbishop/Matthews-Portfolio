@@ -29,7 +29,7 @@ function Projects() {
                       using the Pet Finder API and thedogapi, this was my first
                       group project. Made to help dog lovers search for dogs in
                       their local area and a library of information on any
-                      breads they may be interested in.
+                      breeds they may be interested in.
                     </p>
                     <a
                       href="https://github.com/kcnancy/Dogtionary"
