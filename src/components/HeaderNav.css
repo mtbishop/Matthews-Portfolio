@@ -18,7 +18,7 @@ ul.navList {
 
 @media (max-width: 1024px) {
   .navbar {
-    width: 1135px;
+    width: 1024px;
   }
   #matthewBishop {
     margin-left: -70px !important;
@@ -36,6 +36,10 @@ ul.navList {
 }
 
 @media (max-width: 425px) {
+  .navbar {
+    width: 671px;
+  }
+
   #matthewBishop {
     margin-top: -3.5rem;
   }

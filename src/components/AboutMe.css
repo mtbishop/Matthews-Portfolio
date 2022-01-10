@@ -1,3 +1,6 @@
+body {
+  background-color: #333333;
+}
 .bg-info {
   background-color: #611319 !important;
 }
@@ -5,9 +8,6 @@
   background-color: #333333 !important;
 }
 
-body {
-  background-color: #333333;
-}
 #resume {
   margin-top: 2%;
   margin-left: 30%;
@@ -37,12 +37,19 @@ body {
 #aboutMe {
   font-family: 'Monoton', cursive;
 }
+
+@media (max-width: 1440px) {
+  #resume {
+    margin-left: 26%;
+  }
+}
+
 @media (max-width: 1024px) {
   #contactButton {
     margin-left: 35%;
   }
   #resume {
-    margin-left: 161px;
+    margin-left: 194px;
   }
 }
 

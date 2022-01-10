@@ -3,6 +3,7 @@
 }
 body {
   background-color: #042659 !important;
+  overflow: auto;
 }
 
 html {

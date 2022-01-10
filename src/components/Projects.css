@@ -30,7 +30,7 @@
 
 @media (max-width: 1024px) {
   .projectCard {
-    margin-left: -151px;
+    margin-left: -115px;
     width: 800px !important;
   }
   #projectsBody {
@@ -40,27 +40,21 @@
     margin-right: 4rem;
     margin-bottom: 5rem;
     padding-right: 4rem;
-  }
-  div.jumbotron {
-    margin-right: -123px;
+    font-size: 79px;
   }
 }
 
 @media (max-width: 768px) {
-  div.jumbotron {
-    margin-right: -195px !important;
-    width: 644px;
-  }
   .projectCard {
     width: 600px !important;
-    margin-right: 1px;
+    margin-left: -153px;
   }
   #projectsBody {
     margin-left: 90px !important;
   }
   #projectsHeader {
-    margin-left: -44px;
-    margin-bottom: 1rem;
+    margin-left: -88px;
+    margin-bottom: 1px;
   }
 }
 

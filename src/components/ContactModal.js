@@ -51,12 +51,12 @@ class Modal extends Component {
               <div id="contactContents">
                 <div className="row">
                   <div className="col s12">
-                    <p>Email: mtbishopdev@gmail.com</p>
+                    <p id="emailP">mtbishopdev@gmail.com</p>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col s12">
-                    <p>Phone: 385-685-3051</p>
+                    <p id="phoneP">385-685-3051</p>
                   </div>
                 </div>
                 <div className="row">

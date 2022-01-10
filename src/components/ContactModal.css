@@ -91,6 +91,44 @@
   float: right;
 }
 
+@media (max-width: 1440px) {
+  #modal1 {
+    margin-left: 255px;
+  }
+
+  #emailP {
+    padding: 0px 0px 20px 0px;
+  }
+  #phoneP {
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #modalBody {
+    padding-right: 249px;
+  }
+  #modal1 {
+    padding: 0.23rem 19.23rem 0.23rem 0.23rem;
+    margin-left: 200px;
+  }
+  #emailP {
+    padding: 0px 10px 0px 10px;
+  }
+  #phoneP {
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #modal1 {
+    margin-left: 116px;
+  }
+  #modalBody {
+    padding-right: 241px;
+  }
+}
+
 @media (max-width: 425px) {
   #modal1 {
     width: 104%;
