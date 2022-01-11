@@ -2,7 +2,7 @@ import './Projects.css';
 import './portfoliostyle.css';
 import Dogtionary from '../assets/Images/Dogtionary Demo.png';
 import CodingQuiz from '../assets/Images/Coding Quiz Demo.PNG';
-import BurgerApp from '../assets/Images/BurgerApp Demo.png';
+import ISSTracker from '../assets/Images/landing-page.PNG';
 
 function Projects() {
   return (
@@ -14,6 +14,46 @@ function Projects() {
               <h1 id="projectsHeader">Projects</h1>
             </div>
             <div id="projectBoxes">
+              <div className="row projectCard">
+                <div className="col-md-12">
+                  <div className="card m-3">
+                    <img
+                      src={ISSTracker}
+                      id="projImage"
+                      className="card-img-top"
+                      alt="burger-app-demo"
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">ISS Tracker</h5>
+                      <p className="card-text">
+                        Track the current location of the International Space
+                        Station, as well as see a list of all of the current
+                        astronauts that are on the ISS and the Shenzhou 13 space
+                        crafts. Created with React and styled with SCSS and
+                        tailwind.css
+                      </p>
+                      <a
+                        href="https://github.com/mtbishop/ISS-Tracker"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn"
+                        id="projectsButton"
+                      >
+                        Go to Project Repository
+                      </a>
+                      <a
+                        href="https://mtb-iss-tracker.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn"
+                        id="projectsButton"
+                      >
+                        Deployed Link
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="row projectCard">
                 <div className="col-md-12">
                   <div className="card m-3">
@@ -43,45 +83,6 @@ function Projects() {
                       </a>
                       <a
                         href="https://kcnancy.github.io/Dogtionary/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn"
-                        id="projectsButton"
-                      >
-                        Deployed Link
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row projectCard">
-                <div className="col-md-12">
-                  <div className="card m-3">
-                    <img
-                      src={BurgerApp}
-                      id="projImage"
-                      className="card-img-top"
-                      alt="burger-app-demo"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Eat-Da-Burger</h5>
-                      <p className="card-text">
-                        With this burger checklist, you can enter a type of
-                        burger you'd like to try and make a list of it. When you
-                        try the burger you can click the eaten button and the
-                        burger that you ate will apear on the right side.
-                      </p>
-                      <a
-                        href="https://github.com/mtbishop/Eat-Da-Burger"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn"
-                        id="projectsButton"
-                      >
-                        Go to Project Repository
-                      </a>
-                      <a
-                        href="https://eat-da-burger-mb.herokuapp.com/"
                         target="_blank"
                         rel="noreferrer"
                         className="btn"
