@@ -130,9 +130,6 @@
 }
 
 @media (max-width: 425px) {
-  #modal1 {
-    width: 104%;
-  }
   #contactContents p {
     padding: 20% 6% 6% 0%;
   }

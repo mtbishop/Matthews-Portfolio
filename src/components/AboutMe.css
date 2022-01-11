@@ -59,7 +59,7 @@ body {
     padding-top: 222px;
   }
   #aboutMeIntro {
-    font-size: 17px !important;
+    font-size: 17px;
     margin-top: -27px;
   }
   #selfImage {
@@ -87,17 +87,15 @@ body {
 }
 @media (max-width: 425px) {
   #selfImage {
-    margin-left: 6.6rem;
+    margin-left: 5rem;
   }
-  #aboutMeBody section {
+  #aboutMeBody {
+    margin-right: 1rem;
     font-size: 14px;
   }
   #aboutMe {
     margin-top: 3rem;
     margin-right: 91px;
-  }
-  #aboutMeBody {
-    margin-right: 1rem;
   }
   #resumePreText a {
     margin: 1rem;
@@ -110,12 +108,12 @@ body {
 
 @media (max-width: 375px) {
   #selfImage {
-    height: 200px;
-    width: 250px;
+    height: 240px;
+    width: 350px;
     margin-right: -5rem;
   }
   #aboutMe {
-    font-size: 25px;
+    font-size: 53px;
   }
   #aboutMeIntro {
     font-size: 10px;
@@ -123,11 +121,12 @@ body {
 }
 @media (max-width: 320px) {
   #selfImage {
-    height: 175px;
-    width: 250px;
+    height: 240px;
+    width: 400px;
+    margin-left: 50px;
   }
   #aboutMe {
-    font-size: 25px;
+    font-size: 53px;
   }
   #aboutMeIntro {
     font-size: 10px;

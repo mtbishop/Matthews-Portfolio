@@ -6,6 +6,10 @@ Jacket Color2: 042659
 
 */
 
+div.jumbotron {
+  padding: 0.5rem 2rem;
+}
+
 .bg-info {
   background-color: #085492 !important;
 }
@@ -55,7 +59,8 @@ Jacket Color2: 042659
 
 @media (max-width: 425px) {
   div.jumbotron {
-    margin-right: 50px !important;
+    width: 621px !important;
+    margin-left: 1px !important;
   }
 }
 

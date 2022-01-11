@@ -62,11 +62,17 @@
   #projectsHeader {
     font-size: 54px;
     padding-bottom: 81px !important;
-    margin-top: -176px;
+    margin-top: -195px;
+    margin-left: -13px;
   }
   .projectCard {
     width: 26rem;
     margin: -33% 0% 33% -35%;
+  }
+  #projectBoxes {
+    margin-top: 74px;
+    margin-bottom: 0px;
+    margin-right: -54px;
   }
   #projectsButton {
     padding: 0% 5% 0% 5%;
@@ -74,6 +80,6 @@
     margin-bottom: 1%;
   }
   #projectsBody {
-    margin: 38% 0% 0% 0%;
+    margin: 38% 0% -18% 0%;
   }
 }

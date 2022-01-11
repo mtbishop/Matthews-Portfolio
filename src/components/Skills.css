@@ -15,10 +15,6 @@
   color: white;
 }
 
-.jumbotron {
-  padding: 0.5rem 2rem;
-}
-
 @media (max-width: 1440px) {
   #skillIcons {
     font-size: 93px;
