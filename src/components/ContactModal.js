@@ -22,13 +22,13 @@ class Modal extends Component {
   render() {
     return (
       <div>
-        <Button
-          className="modal-trigger"
+        <div
+          className="modal-trigger wave effect waves-light btn"
           data-target="modal1"
           id="contactButton"
         >
           Contact Me
-        </Button>
+        </div>
 
         <div
           ref={(Modal) => {
