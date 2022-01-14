@@ -43,7 +43,7 @@ function AboutMe() {
                     id="resume"
                     rel="noreferrer"
                     className="btn"
-                    href="https://docs.google.com/document/d/1YeQ09hVz4KmRDTZ6hHcPA4l7eQIcgKygkbW03KcPj5M/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1_ik0ytQfhw57YwvdR8M8SGtCSc1zXxlx/edit?usp=sharing&ouid=113091407954685219699&rtpof=true&sd=true"
                     target="_blank"
                   >
                     Learn more about my professional history
