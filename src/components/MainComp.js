@@ -6,7 +6,7 @@ import Projects from './Projects';
 
 const Main = () => {
   return (
-    <div>
+    <div className="main-container">
       <HeaderNav />
       <AboutMe />
       <Skills />

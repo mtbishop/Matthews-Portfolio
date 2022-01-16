@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
 import GHLogo from '../assets/Images/GH logo.png';
 import LILogo from '../assets/Images/LI logo.png';
 import M from 'materialize-css';
-import 'materialize-css/dist/css/materialize.min.css';
+// import 'materialize-css/dist/css/materialize.min.css';
 import './ContactModal.css';
 
 class Modal extends Component {
