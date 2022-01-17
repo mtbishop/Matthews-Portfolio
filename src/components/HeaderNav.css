@@ -20,39 +20,3 @@ nav {
 .navbar-anchor img:hover {
   transform: scale(1.1);
 }
-
-#matthewBishop {
-  /* font-size: 40px; */
-}
-#FSWD {
-  /* font-size: 24px; */
-}
-
-/* @media (max-width: 1024px) {
-  .navbar {
-    width: 1024px;
-  }
-  #matthewBishop {
-    margin-left: -70px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    width: 768px;
-  }
-  #matthewBishop {
-    margin-top: 1rem;
-    padding-right: 2px;
-  }
-}
-
-@media (max-width: 425px) {
-  .navbar {
-    width: 671px;
-  }
-
-  #matthewBishop {
-    margin-top: -3.5rem;
-  }
-} */

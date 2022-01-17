@@ -1,5 +1,4 @@
 import './AboutMe.css';
-import Modal from './ContactModal';
 import NonCrossed from '../assets/Images/non crossed.jpg';
 
 function AboutMe() {
@@ -36,7 +35,6 @@ function AboutMe() {
                 Python with a bit of dabbling in Data Science all to help
                 broaden my scope of programming knowledge.
               </section>
-              <Modal />
               <p id="resumePreText">
                 <span>
                   <a

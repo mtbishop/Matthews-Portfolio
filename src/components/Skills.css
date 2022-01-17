@@ -1,13 +1,10 @@
 #skillsHeader {
-  text-align: center;
-  margin-right: 35%;
-  margin-left: 35%;
-  margin-top: 29px;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Monoton', cursive;
-  font-size: 80px;
+  font-size: 67px;
+  padding: 7px 0px;
 }
 
 #skillIcons {

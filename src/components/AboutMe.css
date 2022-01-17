@@ -9,8 +9,10 @@ body {
 }
 
 #resume {
-  margin-top: 2%;
-  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 425px;
 }
 
 .btn {
@@ -36,6 +38,7 @@ body {
 
 #aboutMe {
   font-family: 'Monoton', cursive;
+  font-size: 51px;
 }
 
 @media (max-width: 1440px) {

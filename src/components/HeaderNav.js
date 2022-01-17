@@ -1,6 +1,7 @@
 import React from 'react';
 import GHLogo from '../assets/Images/GH logo.png';
 import LILogo from '../assets/Images/LI logo.png';
+import ContactModal from '../components/ContactModal';
 import './HeaderNav.css';
 
 function HeaderNav() {
@@ -11,6 +12,7 @@ function HeaderNav() {
           <h4 id="matthewBishop">Matthew Bishop</h4>
           <h6 id="FSWD">Full Stack Web Developer</h6>
         </div>
+        <ContactModal />
         <div>
           <a
             className="navbar-anchor"

@@ -7,9 +7,9 @@ function Skills() {
     <div>
       <div className="container">
         <div className="jumbotron mt-4 bg-info">
-          <h1 className="text-light" id="skillsHeader">
+          <h2 className="text-light" id="skillsHeader">
             Skills
-          </h1>
+          </h2>
           <div id="skillIcons">
             <div>
               <Row>
