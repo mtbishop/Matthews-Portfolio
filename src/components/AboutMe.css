@@ -17,7 +17,7 @@ body {
 
 .btn {
   color: white !important;
-  background-color: #283593;
+  background-color: transparent;
 }
 
 .btn:hover {

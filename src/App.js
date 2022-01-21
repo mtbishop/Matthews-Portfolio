@@ -1,6 +1,6 @@
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import MainComp from './components/MainComp';
+import ContactModal from './components/ContactModal';
 
 function App() {
   return (

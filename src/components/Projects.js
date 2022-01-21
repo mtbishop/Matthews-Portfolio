@@ -2,7 +2,7 @@ import './Projects.css';
 import './portfoliostyle.css';
 import Dogtionary from '../assets/Images/Dogtionary Demo.png';
 import CodingQuiz from '../assets/Images/Coding Quiz Demo.PNG';
-import ISSTracker from '../assets/Images/landing-page.PNG';
+import ISSTracker from '../assets/Images/landing-page2.PNG';
 
 function Projects() {
   return (

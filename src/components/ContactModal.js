@@ -12,7 +12,12 @@ const ContactModal = () => {
 
       {isOpened && (
         <>
-          <div className="modalShadow"></div>
+          <div
+            onClick={() => {
+              setIsOpened(false);
+            }}
+            className="modalShadow"
+          ></div>
           <div className="contactModal">
             <h1>Modal Title</h1>
             <h2>Testing123</h2>
