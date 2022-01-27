@@ -1,5 +1,5 @@
-import GHLogo from '../styles/img/GH logo.png';
-import LILogo from '../styles/img/LI logo.png';
+import GHLogo from '../styles/img/GH logo-white.png';
+import LILogo from '../styles/img/LI logo-white.png';
 import '../styles/components/HeaderNav.scss';
 
 function HeaderNav() {

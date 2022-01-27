@@ -4,7 +4,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background-color: rgb(38, 38, 38);
+    background-color: transparent;
     padding: 12px 107px;
     div {
       &.navTitle {
@@ -15,7 +15,9 @@ nav {
         font-family: 'Noto Sans', sans-serif;
         h4 {
           &.matthewBishop {
+            font-family: 'Monoton', cursive;
             font-size: 40px;
+            font-weight: 500;
           }
         }
         h6 {
