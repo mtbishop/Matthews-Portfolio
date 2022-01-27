@@ -1,12 +1,13 @@
-import './App.css';
+import './styles/App.css';
 import MainComp from './components/MainComp';
-import ContactModal from './components/ContactModal';
 
 function App() {
   return (
-    <div className="App">
-      <MainComp />
-    </div>
+    <>
+      <div className="App">
+        <MainComp />
+      </div>
+    </>
   );
 }
 

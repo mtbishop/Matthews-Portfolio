@@ -1,0 +1,151 @@
+nav {
+  &.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(38, 38, 38);
+    padding: 12px 107px;
+    div {
+      &.navTitle {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Noto Sans', sans-serif;
+        h4 {
+          &.matthewBishop {
+            font-size: 40px;
+          }
+        }
+        h6 {
+          &.FSWD {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    div {
+      &.navLinks {
+        a {
+          &.navbar-anchor img {
+            transition: transform ease-in-out 0.2s;
+            margin: 0 10px;
+          }
+          &.navbar-anchor img:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+
+@media (min-width: 2560px) {
+  nav {
+    &.navbar {
+      div {
+        &.navTitle {
+          h4 {
+            &.matthewBishop {
+              font-size: 60px;
+            }
+          }
+          h6 {
+            &.FSWD {
+              font-size: 35px;
+            }
+          }
+        }
+        &.navLinks {
+          a {
+            &.navbar-anchor {
+              img {
+                width: 125px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  nav {
+    &.navbar {
+      div {
+        &.navTitle {
+          h4 {
+            &.matthewBishop {
+              font-size: 40px;
+            }
+          }
+          h6 {
+            &.FSWD {
+              font-size: 30px;
+            }
+          }
+        }
+        &.navLinks {
+          a {
+            &.navbar-anchor img {
+              width: 75px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    &.navbar {
+      div {
+        &.navTitle {
+          h4 {
+            &.matthewBishop {
+              font-size: 35px;
+            }
+          }
+          h6 {
+            &.FSWD {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    &.navbar {
+      div {
+        &.navTitle {
+          h4 {
+            &.matthewBishop {
+              font-size: 28px;
+            }
+          }
+          h6 {
+            &.FSWD {
+              font-size: 15px;
+            }
+          }
+        }
+        &.navLinks {
+          a {
+            &.navbar-anchor img {
+              width: 54px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

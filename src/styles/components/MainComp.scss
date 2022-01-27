@@ -1,0 +1,26 @@
+/* 
+BLUE :  283593
+RED  :  611319   
+Jacket Color1: 085492
+Jacket Color2: 042659
+
+*/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  section {
+    &.container {
+      margin: 2em 6em 0 6em;
+      background-color: #085492;
+      border-radius: 8px;
+      padding: 100px;
+      &:last-child {
+        margin-bottom: 2em;
+      }
+    }
+  }
+}

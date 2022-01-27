@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ContactModal.css';
+import '../styles/components/ContactModal.css';
 
 const ContactModal = () => {
   const [isOpened, setIsOpened] = useState(false);

@@ -1,58 +1,37 @@
-import './AboutMe.css';
-import NonCrossed from '../assets/Images/non crossed.jpg';
+// import ParticleBackground from './ParticleBackground';
+import '../styles/components/AboutMe.scss';
+import NonCrossed from '../styles/img/non crossed.jpg';
 
 function AboutMe() {
   return (
-    <div>
-      <section className="container">
-        <div className="jumbotron mt-4 bg-info">
-          <div id="aboutMeBody" className="row">
-            <div className="col-md-12 text-light">
-              <img
-                id="selfImage"
-                alt="pic-of-me"
-                src={NonCrossed}
-                className="mr-3 img-thumbnail float-left"
-                width="350px"
-                height="350px"
-              />
-              <div id="aboutMeHeader">
-                <h2 id="aboutMe">About Me</h2>
-              </div>
-              <section id="aboutMeIntro" className="ml-2 text-light pt-3 pb-1">
-                Hello! Welcome to my portfolio. I am a graduate of the Kansas
-                University Coding Bootcamp with the goal to become a full stack
-                developer. I joined with the school when I realized how creative
-                and fun being a web developer can be and haven't regretted it
-                since. I had no prior knowledge of anything code related before
-                I started and am proud of how fast I'm learning and can not wait
-                to be able to apply my skills to my future employer. I bring
-                critical thinking skills to the table that I acquired from my IT
-                education at Mountainland Applied Tech. College located in
-                Spanish Fork Utah while getting my A+ certification, Network+
-                certification, and Security+ certification. Outside of the
-                bootcamp curriculum I am studying: WordPress, PHP, Vue.js, and
-                Python with a bit of dabbling in Data Science all to help
-                broaden my scope of programming knowledge.
-              </section>
-              <p id="resumePreText">
-                <span>
-                  <a
-                    id="resume"
-                    rel="noreferrer"
-                    className="btn"
-                    href="https://docs.google.com/document/d/1_ik0ytQfhw57YwvdR8M8SGtCSc1zXxlx/edit?usp=sharing&ouid=113091407954685219699&rtpof=true&sd=true"
-                    target="_blank"
-                  >
-                    Learn more about my professional history
-                  </a>
-                </span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <section className="container aboutMe">
+      <p className="aboutMeIntro">
+        <img className="selfImage" alt="pic-of-me" src={NonCrossed} />
+        <span className="aboutMe">About Me</span>
+        Hello! Welcome to my portfolio. I am a graduate of the Kansas University
+        Coding Bootcamp with the goal to become a full stack developer. I joined
+        with the school when I realized how creative and fun being a web
+        developer can be and haven't regretted it since. I had no prior
+        knowledge of anything code related before I started and am proud of how
+        fast I'm learning and can not wait to be able to apply my skills to my
+        future employer. I bring critical thinking skills to the table that I
+        acquired from my IT education at Mountainland Applied Tech. College
+        located in Spanish Fork Utah while getting my A+ certification, Network+
+        certification, and Security+ certification. Outside of the bootcamp
+        curriculum I am studying: WordPress, PHP, Vue.js, and Python with a bit
+        of dabbling in Data Science all to help broaden my scope of programming
+        knowledge.
+      </p>
+      <a
+        className="resume"
+        href="/Matthew_Bishop.pdf"
+        target="_blank"
+        rel="noreffer"
+      >
+        Learn more about my professional history
+      </a>
+      {/* <ParticleBackground /> */}
+    </section>
   );
 }
 
