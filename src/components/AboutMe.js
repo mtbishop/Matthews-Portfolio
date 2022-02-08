@@ -1,8 +1,11 @@
+import React, { useState } from 'react';
 // import ParticleBackground from './ParticleBackground';
 import '../styles/components/AboutMe.scss';
 import NonCrossed from '../styles/img/non crossed.jpg';
+import ContactModal from './ContactModal';
 
 function AboutMe() {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <section className="container aboutMe">
       <p className="aboutMeIntro">
@@ -22,6 +25,15 @@ function AboutMe() {
         of dabbling in Data Science all to help broaden my scope of programming
         knowledge.
       </p>
+      <button
+        onClick={() => {
+          setModalOpen(true);
+        }}
+        className="contactModalButton"
+      >
+        Contact Me
+      </button>
+      {modalOpen && <ContactModal setOpenModal={setModalOpen} />}
       <a
         className="resume"
         href="/Matthew_Bishop.pdf"

@@ -14,12 +14,21 @@ Jacket Color2: 042659
   width: 100%;
   section {
     &.container {
+      z-index: 100 !important;
       margin: 2em 6em 0 6em;
       background-color: #085492;
       border-radius: 8px;
       padding: 100px;
       &:last-child {
         margin-bottom: 2em;
+      }
+    }
+  }
+  div {
+    &#tsparticles {
+      canvas {
+        width: 5% !important;
+        height: 15% !important;
       }
     }
   }

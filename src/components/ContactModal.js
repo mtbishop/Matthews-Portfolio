@@ -1,31 +1,38 @@
-import { useState } from 'react';
-import '../styles/components/ContactModal.css';
+import '../styles/components/ContactModal.scss';
 
-const ContactModal = () => {
-  const [isOpened, setIsOpened] = useState(false);
-
+const ContactModal = (setOpenModal) => {
+  console.log('modal open');
   return (
-    <>
-      <button className="openModal" onClick={() => setIsOpened(true)}>
-        Contact Me
-      </button>
-
-      {isOpened && (
-        <>
-          <div
+    <div className="modalBackground">
+      <div className="modalContainer">
+        <div className="titleCloseBtn">
+          <button
             onClick={() => {
-              setIsOpened(false);
+              setOpenModal(false);
             }}
-            className="modalShadow"
-          ></div>
-          <div className="contactModal">
-            <h1>Modal Title</h1>
-            <h2>Testing123</h2>
-            <button onClick={() => setIsOpened(false)}>X</button>
-          </div>
-        </>
-      )}
-    </>
+          >
+            X
+          </button>
+        </div>
+        <div className="title">
+          <h1>Are You Sure You Want to Continue?</h1>
+        </div>
+        <div className="body">
+          <p>The next page looks amazing. Hope you want to go there!</p>
+        </div>
+        <div className="footer">
+          <button
+            onClick={() => {
+              setOpenModal(false);
+            }}
+            id="cancelBtn"
+          >
+            Cancel
+          </button>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
   );
 };
 
