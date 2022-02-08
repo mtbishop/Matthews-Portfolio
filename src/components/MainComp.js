@@ -3,7 +3,7 @@ import HeaderNav from './HeaderNav';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
-import ParticleBackground from './ParticleBackground';
+// import ParticleBackground from './ParticleBackground';
 import '../styles/components/MainComp.scss';
 
 const Main = () => {
@@ -13,7 +13,7 @@ const Main = () => {
       <AboutMe />
       <Skills />
       <Projects />
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
     </div>
   );
 };

@@ -1,35 +1,23 @@
 import '../styles/components/ContactModal.scss';
 
-const ContactModal = (setOpenModal) => {
-  console.log('modal open');
+const ContactModal = ({ setOpenModal }) => {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
-        <div className="titleCloseBtn">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
-        </div>
-        <div className="title">
-          <h1>Are You Sure You Want to Continue?</h1>
-        </div>
         <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
+          <p>
+            Email: <a href="/">mtbishopdev@gmail.com</a>
+          </p>
+          <p className="phoneNumber">Phone: 385-685-3051</p>
         </div>
         <div className="footer">
           <button
             onClick={() => {
               setOpenModal(false);
             }}
-            id="cancelBtn"
           >
-            Cancel
+            Close
           </button>
-          <button>Continue</button>
         </div>
       </div>
     </div>
