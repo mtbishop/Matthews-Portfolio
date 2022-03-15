@@ -78,7 +78,7 @@ section {
 
 // Media Queries
 
-@media (min-width: 2560px) {
+@media (max-width: 2560px) {
   section {
     &.aboutMe {
       p {
@@ -111,6 +111,39 @@ section {
   }
 }
 
+@media (max-width: 1920px) {
+  section {
+    &.aboutMe {
+      p {
+        &.aboutMeIntro {
+          font-size: 25px;
+          img {
+            &.selfImage {
+              height: 300px;
+              width: 450px;
+            }
+          }
+          span {
+            &.aboutMe {
+              font-size: 60px;
+            }
+          }
+        }
+      }
+      button {
+        &.contactModalButton {
+          font-size: 20px;
+        }
+      }
+      a {
+        &.resume {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1440px) {
   section {
     &.aboutMe {
@@ -132,12 +165,12 @@ section {
       }
       button {
         &.contactModalButton {
-          font-size: 25px;
+          font-size: 20px;
         }
       }
       a {
         &.resume {
-          font-size: 25px;
+          font-size: 20px;
         }
       }
     }
@@ -195,6 +228,31 @@ section {
               font-size: 28px;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  section {
+    &.aboutMe {
+      p {
+        &.aboutMeIntro {
+          font-size: 14px;
+        }
+      }
+      button {
+        &.contactModalButton {
+          margin-top: 20px;
+          text-align: center;
+          align-items: center;
+          align-content: center;
+        }
+      }
+      a {
+        &.resume {
+          margin-top: 20px;
         }
       }
     }
