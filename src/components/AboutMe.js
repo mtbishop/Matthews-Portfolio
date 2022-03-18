@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import ParticleBackground from './ParticleBackground';
 import '../styles/components/AboutMe.scss';
 import NonCrossed from '../styles/img/non crossed.jpg';
 import ContactModal from './ContactModal';
