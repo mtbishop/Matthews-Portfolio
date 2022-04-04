@@ -99,3 +99,13 @@ section {
     }
   }
 }
+
+@media (max-width: 425px) {
+  section {
+    &.skillsContainer {
+      span {
+        padding-top: 77px;
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@ import '../styles/components/Skills.scss';
 
 function Skills() {
   return (
-    <section className="container">
+    <section className="container skillsContainer">
       <span className="skillsHeader">Skills</span>
       <div className="skillsGrid">
         <div className="skillsItem">

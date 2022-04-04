@@ -25,6 +25,16 @@ Jacket Color2: 042659
   }
 }
 
+@media (max-width: 768px) {
+  .main-container {
+    section {
+      &.container {
+        padding: 70px;
+      }
+    }
+  }
+}
+
 @media (max-width: 425px) {
   .main-container {
     section {
